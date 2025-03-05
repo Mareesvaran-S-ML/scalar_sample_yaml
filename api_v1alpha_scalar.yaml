@@ -1,0 +1,14 @@
+apiVersion: api.demo.demo.com/v1alpha
+kind: Scalar
+metadata:
+  labels:
+    app.kubernetes.io/name: scalerproject
+    app.kubernetes.io/managed-by: kustomize
+  name: scalar-samples
+spec:
+  start: 9
+  end: 11
+  replicas: 3
+  deployments: 
+    - name: nginx
+      namespace: default
