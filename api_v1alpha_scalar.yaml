@@ -6,8 +6,8 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
   name: scalar-samples
 spec:
-  start: 9
-  end: 11
+  start: 6
+  end: 7
   replicas: 3
   deployments: 
     - name: nginx
