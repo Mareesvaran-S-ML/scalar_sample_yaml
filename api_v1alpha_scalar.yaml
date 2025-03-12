@@ -7,7 +7,7 @@ metadata:
   name: scalar-samples
 spec:
   start: 12
-  end: 5
+  end: 16
   replicas: 3
   deployments: 
     - name: nginx
